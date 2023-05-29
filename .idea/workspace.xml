@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504969ee-3faa-4568-a82f-c30f34422969" name="Changes" comment="Abstract class">
-      <change afterPath="$PROJECT_DIR$/src/Model/PetCreator.java" afterDir="false" />
+    <list default="true" id="504969ee-3faa-4568-a82f-c30f34422969" name="Changes" comment="End model">
+      <change afterPath="$PROJECT_DIR$/src/Controller/Counter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685380527636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="End model">
+      <created>1685380816203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685380816203</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
     <MESSAGE value="Dog" />
     <MESSAGE value="Humster" />
     <MESSAGE value="Abstract class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract class" />
+    <MESSAGE value="End model" />
+    <option name="LAST_COMMIT_MESSAGE" value="End model" />
   </component>
 </project>
