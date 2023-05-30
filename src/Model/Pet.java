@@ -39,4 +39,8 @@ public abstract class Pet {
     public String toString() {
         return String.format("%d. %s: имя: %s, дата рождения: %s ", getPetId(), getClass().getSimpleName(), name, getBirthday());
     }
+
+    public String getName() {
+        return name;
+    }
 }

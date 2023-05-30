@@ -1,12 +1,16 @@
 package Controller;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import Exceptions.UncorrectDataException;
-import Model.*;
+import Model.Creator;
+import Model.Pet;
+import Model.PetCreator;
+import Model.PetType;
 import Services.IRepository;
 import Services.PetRepository;
-import UserInterface.*;
+import UserInterface.ConsoleView;
+import UserInterface.View;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class PetController {
     private IRepository<Pet> petRepository;

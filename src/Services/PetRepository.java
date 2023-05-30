@@ -1,16 +1,23 @@
 package Services;
 
+import Model.Creator;
+import Model.Pet;
+import Model.PetCreator;
+import Model.PetType;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.sql.*;
-import java.time.LocalDate;
-import Model.*;
-public class PetRepository implements  IRepository {
+
+
+public class PetRepository implements IRepository<Pet> {
+
     private Creator petCreator;
     private Statement sqlSt;
     private ResultSet resultSet;

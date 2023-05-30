@@ -3,7 +3,9 @@ package UserInterface;
 import java.util.List;
 import java.util.Scanner;
 import Model.*;
+
 public class ConsoleView implements View <Pet> {
+
     Scanner in;
 
     public ConsoleView() {

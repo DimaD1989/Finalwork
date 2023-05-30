@@ -1,11 +1,14 @@
 package UserInterface;
 
-import java.util.Scanner;
-import Controller.*;
-import Exceptions.UncorrectDataException;
+import Controller.Counter;
+import Controller.PetController;
+import Exeptions.UncorrectDataException;
 import Model.PetType;
 
+import java.util.Scanner;
+
 public class ConsoleMenu {
+
     PetController petController;
 
     public ConsoleMenu(PetController controller) {

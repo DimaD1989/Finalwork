@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504969ee-3faa-4568-a82f-c30f34422969" name="Changes" comment="End services">
-      <change afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleMenu.java" afterDir="false" />
+    <list default="true" id="504969ee-3faa-4568-a82f-c30f34422969" name="Changes" comment="End view">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exeptions/UncorrectDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInterface/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685381727861</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="End consolemenu">
+      <created>1685459078567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685459078567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="End view">
+      <created>1685459271469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685459271469</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +150,8 @@
     <MESSAGE value="End model" />
     <MESSAGE value="End controller" />
     <MESSAGE value="End services" />
-    <option name="LAST_COMMIT_MESSAGE" value="End services" />
+    <MESSAGE value="End consolemenu" />
+    <MESSAGE value="End view" />
+    <option name="LAST_COMMIT_MESSAGE" value="End view" />
   </component>
 </project>
